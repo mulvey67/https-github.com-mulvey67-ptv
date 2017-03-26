@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PTV explore my interviews
+  host: PTV-explore-my-interviews
+  disk_quota: 1024M
+  services:
+  - Tone Analyzer-u6
+  - PTV explore my interviews-personality_insights
+  - Natural Language Understanding-PTV
